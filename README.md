@@ -1,2 +1,0 @@
-# Elton Dan
-Portfolio website.
