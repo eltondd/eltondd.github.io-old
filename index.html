@@ -95,13 +95,13 @@
           </h3>
           <!-- Slideshow container -->
           <div class="slideshow-container">
-            <div class="mySlides fade">
+            <div class="mySlides fade" style="display: block;">
               <img src="img/BCU-img.png" alt="BCU" height="327" width="690">
             </div>
-            <div class="mySlides fade">
+            <div class="mySlides fade" style="display: none;">
               <img src="img/BCU-img-2.png" alt="BCU" height="327" width="690">
             </div>
-            <div class="mySlides fade">
+            <div class="mySlides fade" style="display: none;">
               <img src="img/BCU-img-3.png" alt="BCU" height="327" width="690">
             </div>
             <!-- Next and previous buttons -->
@@ -112,7 +112,7 @@
 
           <!-- The dots/circles -->
           <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot active" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
           </div>
