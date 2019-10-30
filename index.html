@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="/assets/css/style.css?v=3295f709e2321789e513ea7ebff7c367b6706778" media="screen" type="text/css">
     <link rel="stylesheet" href="/assets/css/print.css" media="print" type="text/css">
+    <link rel="stylesheet" href="/css/slideshow.css"j>
+    <script type="text/javascript" src="/js/slideshow.js"></script>
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -99,6 +101,17 @@
             <div class="mySlides fade">
               <img src="img/BCU-img-2.png" alt="BCU" height="327" width="690">
             </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
           </div>
           <p>A project for CS 113 Project in Game Development. BCU is a series of mini-games that simulate what a student expect to learn in college. From building robots for defense in Engineer, creating viruses in Biology, and creating drugs in that send people into crazy hallucinations, BCU allow students to live their fantasy. They will play through minigames and obtain degrees for their respective majors and can return to obtain another. The school is open for any of those who want to learn what students really learn at school. Assets were obtained from different means such as the Unity Assets store and other online providers.</p>
           <br>
