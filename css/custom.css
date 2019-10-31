@@ -89,6 +89,14 @@ hr.style-two {
     background-image: linear-gradient(to right, rgba(53, 125, 207, 0.1), rgba(53, 125, 207, 0.75), rgba(53, 125, 207, 0.1));
 }
 
+p.sidebar{
+  font-size: 14px;
+}
+
+li.sidebar {
+  font-size: 14px;
+}
+
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
