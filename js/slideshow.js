@@ -5,7 +5,7 @@ var dotId = ["dot1", "dot2","dot3", "dot4","dot5", "dot6", "dot7"];
 
 var i;
 for (i=0; i<slideIndex.length;i++){
-
+  window.alert(i);
   showSlides(1, i);
 }
 
