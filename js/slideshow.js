@@ -1,10 +1,11 @@
 var slideIndex = [1,1,1,1,1,1,1];
 /* Class the members of each slideshow group with different CSS classes */
-var slideId = ["mySlides1", "mySlides2","mySlides3", "mySlides4","mySlides5", "mySlides6", "mySlides7"]
-var dotId = ["dot1", "dot2","dot3", "dot4","dot5", "dot6", "dot7"]
+var slideId = ["mySlides1", "mySlides2","mySlides3", "mySlides4","mySlides5", "mySlides6", "mySlides7"];
+var dotId = ["dot1", "dot2","dot3", "dot4","dot5", "dot6", "dot7"];
 
 var i;
 for (i=0; i<slideIndex.length;i++){
+
   showSlides(1, i);
 }
 
@@ -21,8 +22,8 @@ function showSlides(n, no) {
   var i;
   var slides = document.getElementsByClassName(slideId[no]);
   var dots = document.getElementsByClassName(dotId[no]);
-  if (n > slides.length) {slideIndex[no] = 1}
-  if (n < 1) {slideIndex[no] = slides.length}
+  if (n > slides.length) {slideIndex[no] = 1;}
+  if (n < 1) {slideIndex[no] = slides.length;}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
