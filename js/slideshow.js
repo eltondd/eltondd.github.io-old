@@ -4,7 +4,7 @@ var slideId = ["mySlides1", "mySlides2","mySlides3", "mySlides4","mySlides5", "m
 var dotId = ["dot1", "dot2","dot3", "dot4","dot5", "dot6", "dot7"];
 
 var i;
-for (i=0; i<slideIndex.length;i++){
+for (i = 0; i < slideIndex.length; i++){
   window.alert(i);
   showSlides(1, i);
 }
@@ -21,6 +21,8 @@ function currentSlide(n, no) {
 function showSlides(n, no) {
   var i;
   var slides = document.getElementsByClassName(slideId[no]);
+  alert(slideId[no]);
+  alert(slides);
   var dots = document.getElementsByClassName(dotId[no]);
   if (n > slides.length) {slideIndex[no] = 1;}
   if (n < 1) {slideIndex[no] = slides.length;}
