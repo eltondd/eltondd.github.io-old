@@ -13,7 +13,7 @@ function plusSlides(n, no) {
 
 // Thumbnail image controls
 function currentSlide(n, no) {
-  showSlides(slideIndex[no] = n);
+  showSlides(slideIndex[no] = n, no);
 }
 
 function showSlides(n, no) {
