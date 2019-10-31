@@ -97,6 +97,24 @@ li.sidebar {
   font-size: 14px;
 }
 
+
+
+header.h1 {
+  font-size: 80px;
+}
+
+#main-content.h1{
+  font-size: 24px
+}
+
+#main-content.h2{
+  font-size: 36px
+}
+
+#main-content.h3{
+  font-size: 48px
+}
+
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
