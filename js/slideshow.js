@@ -3,12 +3,6 @@ var slideIndex = [1,1,1,1,1,1,1];
 var slideId = ["mySlides1", "mySlides2","mySlides3", "mySlides4","mySlides5", "mySlides6", "mySlides7"];
 var dotId = ["dot1", "dot2","dot3", "dot4","dot5", "dot6", "dot7"];
 
-var i;
-for (i = 0; i < slideIndex.length; i++){
-  window.alert(i);
-  showSlides(1, i);
-}
-
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
 }
@@ -33,6 +27,7 @@ function showSlides(n, no) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
   alert(slideIndex[no]-1);
+  alert(slides[0]);
   slides[slideIndex[no]-1].style.display = "block";
   dots[slideIndex[no]-1].className += " active";
 }
