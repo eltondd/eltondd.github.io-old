@@ -4,7 +4,8 @@ var slideId = ["mySlides1", "mySlides2","mySlides3", "mySlides4","mySlides5", "m
 var dotId = ["dot1", "dot2","dot3", "dot4","dot5", "dot6", "dot7"]
 
 for (i=0; i<slideIndex.length;i++){
-  showSlides(1, i+1);
+  echo i;
+  showSlides(1, i);
 }
 
 function plusSlides(n, no) {
